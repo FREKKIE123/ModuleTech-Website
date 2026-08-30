@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MoDuLeTech is a technology company based in Gaborone, Botswana. We build mobile apps, websites, custom systems and provide IT support, training and academic technology assistance for businesses, students and individuals.">
+  <meta name="keywords" content="technology company Botswana, web development Botswana, mobile app development Botswana, IT support Botswana, software development Botswana, website design Botswana, computer services Gaborone">
+  <meta property="og:title" content="MoDuLeTech — Technology Studio, Botswana">
+  <meta property="og:description" content="We build digital products, support businesses, teach technology and solve everyday technical problems — practically, affordably, and with genuine care.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_BW">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231A1A1A'/><text x='16' y='22' font-family='Montserrat,sans-serif' font-size='14' font-weight='800' fill='%23D4521C' text-anchor='middle'>M</text></svg>">
+  <title>MoDuLeTech — Technology Studio, Botswana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ====================================================
+       NAVIGATION
+  ==================================================== -->
+  <header class="nav-header" id="nav-header">
+    <nav class="nav-inner container" aria-label="Primary navigation">
+      <a href="#home" class="nav-logo" aria-label="MoDuLeTech home">MoDuLeTech</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#case-studies" class="nav-link">Case Studies</a></li>
+        <li><a href="#team" class="nav-link">Team</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-accent nav-cta">Start a Project</a>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true" role="dialog" aria-label="Navigation menu">
+    <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <ul class="mobile-nav-links" role="list">
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#services" class="mobile-nav-link">Services</a></li>
+      <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+      <li><a href="#case-studies" class="mobile-nav-link">Case Studies</a></li>
+      <li><a href="#team" class="mobile-nav-link">Team</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-accent mobile-menu-cta">Start a Project</a>
+  </div>
+  <div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- ====================================================
+         HERO
+    ==================================================== -->
+    <section class="hero" id="home" aria-labelledby="hero-headline">
+      <div class="hero-grid container">
+        <div class="hero-content">
+          <span class="hero-eyebrow anim-hero-1">Technology Studio &middot; Gaborone, Botswana</span>
+          <h1 class="hero-headline anim-hero-2" id="hero-headline">
+            Technology built<br>for the way<br><em>you</em>&nbsp;work.
+          </h1>
+          <p class="hero-body anim-hero-3">
+            We build digital products, support growing businesses, teach practical technology skills, and solve everyday technical problems — practically, affordably, and with genuine care.
+          </p>
+          <div class="hero-actions anim-hero-4">
+            <a href="#contact" class="btn btn-primary">Start a Project</a>
+            <a href="#portfolio" class="btn btn-ghost">
+              Explore Our Work
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual anim-hero-5">
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=900&fit=crop&auto=format&q=80"
+              alt="Developer working at a clean modern workspace with laptop and notes"
+              class="hero-img"
+              loading="eager"
+            >
+          </div>
+          <div class="hero-badge" aria-hidden="true">
+            <span class="hero-badge-num">8+</span>
+            <span class="hero-badge-label">Services<br>Offered</span>
+          </div>
+          <!--<div class="hero-pill" aria-hidden="true">
+            <span class="hero-pill-dot"></span>
+            Available for new projects
+          </div> -->
+        </div>
+      </div>
+      <div class="hero-marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Web Development</span><span class="mdot">&bull;</span>
+          <span>Mobile Apps</span><span class="mdot">&bull;</span>
+          <span>Custom Systems</span><span class="mdot">&bull;</span>
+          <span>IT Support</span><span class="mdot">&bull;</span>
+          <span>Office Training</span><span class="mdot">&bull;</span>
+          <span>Academic Support</span><span class="mdot">&bull;</span>
+          <span>Hardware Repair</span><span class="mdot">&bull;</span>
+          <span>Digital Design</span><span class="mdot">&bull;</span>
+          <span>Web Development</span><span class="mdot">&bull;</span>
+          <span>Mobile Apps</span><span class="mdot">&bull;</span>
+          <span>Custom Systems</span><span class="mdot">&bull;</span>
+          <span>IT Support</span><span class="mdot">&bull;</span>
+          <span>Office Training</span><span class="mdot">&bull;</span>
+          <span>Academic Support</span><span class="mdot">&bull;</span>
+          <span>Hardware Repair</span><span class="mdot">&bull;</span>
+          <span>Digital Design</span><span class="mdot">&bull;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         ABOUT
+    ==================================================== -->
+    <section class="about" id="about" aria-labelledby="about-headline">
+      <div class="container">
+        <div class="about-top">
+          <div class="about-hl-col">
+            <span class="section-label reveal">About MoDuLeTech</span>
+            <h2 class="about-statement reveal" id="about-headline">
+              Technology should make<br>work easier, not<br>more complicated.
+            </h2>
+          </div>
+          <div class="about-body-col">
+            <p class="about-body reveal">
+              MoDuLeTech is a technology company based in Gaborone, Botswana. We help businesses, individuals and students turn ideas and technical problems into practical, working solutions.
+            </p>
+            <p class="about-body reveal">
+              From building mobile apps and websites to supporting students with academic projects, training professionals in Microsoft Office, and repairing hardware — we are the technology partner that actually shows up and gets things done.
+            </p>
+            <a href="#contact" class="btn btn-outline reveal">Work with Us</a>
+          </div>
+        </div>
+
+        <div class="about-values">
+          <div class="value-item reveal">
+            <span class="val-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </span>
+            <h3>Trustworthy</h3>
+            <p>We say what we mean and deliver what we promise. No overpromising, no disappearing acts.</p>
+          </div>
+          <div class="value-item reveal">
+            <span class="val-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+            </span>
+            <h3>Practical</h3>
+            <p>We build what works, not what looks impressive. Technology should solve real problems.</p>
+          </div>
+          <div class="value-item reveal">
+            <span class="val-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </span>
+            <h3>Approachable</h3>
+            <p>We work with people, not over them. Technical or not, we meet you where you are.</p>
+          </div>
+          <div class="value-item reveal">
+            <span class="val-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </span>
+            <h3>Capable</h3>
+            <p>From mobile applications to hardware repair — breadth and depth to handle what you need.</p>
+          </div>
+        </div>
+
+        <div class="about-imagery">
+          <div class="about-img-main reveal">
+            <img
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&h=580&fit=crop&auto=format&q=80"
+              alt="Team collaborating around laptops in a modern workspace"
+              loading="lazy"
+            >
+          </div>
+          <div class="about-img-stack">
+            <div class="about-img-sec reveal">
+              <img
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=380&fit=crop&auto=format&q=80"
+                alt="Code editor on a laptop screen showing active development work"
+                loading="lazy"
+              >
+            </div>
+            <div class="about-quote reveal">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
+              <p>"The technology partner<br>that actually shows up."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         SERVICES
+    ==================================================== -->
+    <section class="services" id="services" aria-labelledby="services-headline">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What We Do</span>
+          <div class="sh-row">
+            <h2 class="section-title" id="services-headline">Services built<br>for real needs.</h2>
+            <p class="section-sub">Eight distinct services covering the full spectrum of technology needs for businesses, students and individuals across Botswana.</p>
+          </div>
+        </div>
+
+        <div class="services-grid">
+          <article class="svc-card svc-featured reveal" tabindex="0">
+            <div class="svc-top">
+              <span class="svc-num" aria-hidden="true">01</span>
+              <span class="svc-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"></rect><line x1="12" y1="18" x2="12.01" y2="18" stroke-linecap="round" stroke-width="2.5"></line></svg></span>
+            </div>
+            <h3>Mobile App Development</h3>
+            <p>Native and cross-platform mobile applications for iOS and Android. From concept to app store, we build mobile experiences that people actually use.</p>
+            <span class="svc-arrow" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></span>
+          </article>
+
+          <article class="svc-card reveal" tabindex="0">
+            <div class="svc-top">
+              <span class="svc-num" aria-hidden="true">02</span>
+              <span class="svc-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+            </div>
+            <h3>Website Development</h3>
+            <p>Fast, modern, and responsive websites that work hard for your business. From landing pages to full web platforms.</p>
+            <span class="svc-arrow" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></span>
+          </article>
+
+          <article class="svc-card reveal" tabindex="0">
+            <div class="svc-top">
+              <span class="svc-num" aria-hidden="true">03</span>
+              <span class="svc-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></span>
+            </div>
+            <h3>Custom Systems Development</h3>
+            <p>Bespoke software solutions tailored to your specific workflows. Management systems, automation tools, internal platforms and more.</p>
+            <span class="svc-arrow" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></span>
+          </article>
+
+          <article class="svc-card svc-accent reveal" tabindex="0">
+            <div class="svc-top">
+              <span class="svc-num" aria-hidden="true">04</span>
+              <span class="svc-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg></span>
+            </div>
+            <h3>Academic Technology Support</h3>
+            <p>Coding guidance, technical implementation assistance, project support and documentation for tertiary students — structured to help you genuinely learn and grow.</p>
+            <p class="svc-note">Our academic support is designed to deepen understanding, not bypass it.</p>
+            <span class="svc-arrow" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></span>
+          </article>
+
+          <article class="svc-card reveal" tabindex="0">
+            <div class="svc-top">
+              <span class="svc-num" aria-hidden="true">05</span>
+              <span class="svc-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><circle cx="11" cy="11" r="2"></circle></svg></span>
+            </div>
+            <h3>Flyer &amp; Digital Design</h3>
+            <p>Visually sharp flyers, social media graphics, digital assets and brand materials that make your business look its best.</p>
+            <span class="svc-arrow" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></span>
+          </article>
+
+          <article class="svc-card reveal" tabindex="0">
+            <div class="svc-top">
+              <span class="svc-num" aria-hidden="true">06</span>
+              <span class="svc-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg></span>
+            </div>
+            <h3>Microsoft Office Training</h3>
+            <p>Practical, hands-on training in Word, Excel and PowerPoint for professionals, job seekers and anyone wanting to work more confidently with digital tools.</p>
+            <span class="svc-arrow" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></span>
+          </article>
+
+          <article class="svc-card svc-wide reveal" tabindex="0">
+            <div class="svc-top">
+              <span class="svc-num" aria-hidden="true">07</span>
+              <span class="svc-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg></span>
+            </div>
+            <h3>Hardware Installation, Troubleshooting &amp; Repair</h3>
+            <p>Installation, troubleshooting and repair for computers, peripherals and network hardware. Fast diagnosis, clear pricing — no jargon.</p>
+            <span class="svc-arrow" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></span>
+          </article>
+
+          <article class="svc-card svc-wide reveal" tabindex="0">
+            <div class="svc-top">
+              <span class="svc-num" aria-hidden="true">08</span>
+              <span class="svc-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
+            </div>
+            <h3>Software Installation, Configuration &amp; Troubleshooting</h3>
+            <p>Installation, configuration and troubleshooting of operating systems and software applications. Get your tools working so you can focus on work.</p>
+            <span class="svc-arrow" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         VISUAL IMAGE SECTION
+    ==================================================== -->
+    <section class="visual-section">
+      <div class="container">
+        <div class="vis-grid">
+          <div class="vis-main reveal">
+            <img
+              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&h=700&fit=crop&auto=format&q=80"
+              alt="Modern open-plan technology workspace with multiple screens and collaborative team setup"
+              loading="lazy"
+            >
+          </div>
+          <div class="vis-side">
+            <div class="vis-top reveal">
+              <img
+                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=420&fit=crop&auto=format&q=80"
+                alt="Small team collaborating at a table with open laptops and project notes"
+                loading="lazy"
+              >
+            </div>
+            <div class="vis-text reveal">
+              <p>From apps to hardware — we handle technology so you can focus on what matters.</p>
+              <a href="#services" class="btn btn-primary">See All Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         PORTFOLIO
+    ==================================================== -->
+    <section class="portfolio" id="portfolio" aria-labelledby="portfolio-headline">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Selected Work</span>
+          <div class="sh-row">
+            <h2 class="section-title" id="portfolio-headline">Projects we're<br>proud of.</h2>
+            <p class="section-sub">A selection of digital products, platforms and designs built for clients. Project screenshots will be added soon.</p>
+          </div>
+        </div>
+
+        <div class="port-grid">
+          <!-- Featured -->
+          <article class="port-card port-featured reveal" tabindex="0">
+            <div class="port-img-wrap">
+              <img
+                src="/images/archmak-studio.png"
+                alt="ARCH MAK STUDIOS — Architecture Designed for Tomorrow website preview"
+                class="port-img"
+                loading="lazy"
+              >
+              <div class="port-overlay">
+                <div class="port-overlay-inner">
+                  <span class="ov-cat">Architecture Studio &middot; Web Design &amp; Development</span>
+                  <h3 class="ov-title">Arch Mak Studios</h3>
+                  <button class="ov-link" id="open-archmak-preview" aria-label="Preview Arch Mak Studios project">
+                    Preview Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12,5 19,12 12,19"></polyline>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="port-meta">
+              <div class="port-meta-top">
+                <h3 class="port-title">Arch Mak Studios</h3>
+                <span class="port-cat">Architecture Studio &middot; Web Development</span>
+              </div>
+              <p>A sophisticated digital presence and responsive web platform for an architectural studio — highlighting sustainable modern design, precision craftsmanship, and residential &amp; workplace projects.</p>
+              <div class="port-tech"><span>Web Design</span><span>React</span><span>Figma</span><span>Responsive UI</span></div>
+            </div>
+          </article>
+
+          <!-- Secondary pair -->
+          <div class="port-secondary">
+            <article class="port-card reveal" tabindex="0">
+              <div class="port-img-wrap">
+                <img
+                src="/images/phiriso.jpg"
+                alt="Phiriso — Mobile Application"
+                class="port-img"
+                loading="lazy"
+              >
+                <div class="port-ph" style="background: #2C3E50;">
+                  <span class="ph-num">02</span>
+                  <span class="ph-name">Phiriso</span>
+                </div>
+                <div class="port-overlay">
+                  <div class="port-overlay-inner">
+                    <span class="ov-cat">Mobile Application</span>
+                    <h3 class="ov-title">Phiriso</h3>
+                    <a href="#" class="ov-link" aria-label="View Phiriso project">View Project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="port-meta">
+                <div class="port-meta-top">
+                  <h3 class="port-title">Phiriso</h3>
+                  <span class="port-cat">Mobile App Development</span>
+                </div>
+                <p>A purpose-built mobile application. Full project description to be added when screenshots are available.</p>
+                <div class="port-tech"><span>React Native</span><span>Firebase</span></div>
+              </div>
+            </article>
+
+            <article class="port-card reveal" tabindex="0">
+              <div class="port-img-wrap">
+                <div class="port-ph" style="background: #0D3B66;">
+                  <span class="ph-num">03</span>
+                  <span class="ph-name">CyberNova</span>
+                  <span class="ph-note">Screenshot coming soon</span>
+                </div>
+                <div class="port-overlay">
+                  <div class="port-overlay-inner">
+                    <span class="ov-cat">Digital Platform</span>
+                    <h3 class="ov-title">CyberNova</h3>
+                    <a href="#" class="ov-link" aria-label="View CyberNova project">View Project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="port-meta">
+                <div class="port-meta-top">
+                  <h3 class="port-title">CyberNova</h3>
+                  <span class="port-cat">Custom Systems &middot; Web Development</span>
+                </div>
+                <p>A custom digital platform built to specific operational requirements. Full description coming with screenshots.</p>
+                <div class="port-tech"><span>Python</span><span>Django</span><span>PostgreSQL</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="port-footer reveal">
+          <a href="#contact" class="btn btn-outline">Start Your Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         CASE STUDIES
+    ==================================================== -->
+    <section class="case-studies" id="case-studies" aria-labelledby="cs-headline">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Deep Dives</span>
+          <div class="sh-row">
+            <h2 class="section-title" id="cs-headline">How we approach<br>complex challenges.</h2>
+            <p class="section-sub">Beyond the finished product — a look at the thinking, decisions and craft behind selected projects.</p>
+          </div>
+        </div>
+
+        <div class="cs-grid">
+          <article class="cs-card reveal">
+            <div class="cs-img">
+              <img
+                src="/images/archmak-studio.png"
+                alt="ARCH MAK STUDIOS website hero case study preview"
+                class="cs-img-tag"
+                loading="lazy"
+              >
+            </div>
+            <div class="cs-body">
+              <div class="cs-hd">
+                <span class="cs-num" aria-hidden="true">01</span>
+                <span class="cs-cat">Architecture &amp; Design &middot; Web Development</span>
+              </div>
+              <h3 class="cs-title">Arch Mak Studios</h3>
+              <div class="cs-breakdown">
+                <div class="cs-row">
+                  <h4>Challenge</h4>
+                  <p>Arch Mak Studios needed an editorial-grade, minimalist digital platform reflecting their architectural ethos — precision, material honesty, and light — to showcase residential and commercial works.</p>
+                </div>
+                <div class="cs-row">
+                  <h4>Approach</h4>
+                  <p>Designed a dark-themed visual experience with full-bleed hero visuals, refined typography, structured project showcases, and seamless cross-device responsiveness.</p>
+                </div>
+                <div class="cs-row">
+                  <h4>Outcome</h4>
+                  <p>Delivered an elevated brand platform that communicates architectural excellence, increasing portfolio engagement and client project inquiries.</p>
+                </div>
+              </div>
+              <div class="cs-tech"><span>React</span><span>Web Design</span><span>Figma</span><span>Responsive UI</span></div>
+              <button class="btn btn-ghost cs-cta" id="cs-archmak-preview-btn" aria-label="Preview Arch Mak Studios full screenshot">
+                Preview Screenshot
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12,5 19,12 12,19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <article class="cs-card reveal">
+            <div class="cs-img">
+              <div class="port-ph" style="background: #0D3B66; height: 100%;">
+                <span class="ph-name">CyberNova</span>
+              </div>
+            </div>
+            <div class="cs-body">
+              <div class="cs-hd">
+                <span class="cs-num" aria-hidden="true">02</span>
+                <span class="cs-cat">Custom Systems &middot; Web Development</span>
+              </div>
+              <h3 class="cs-title">CyberNova</h3>
+              <div class="cs-breakdown">
+                <div class="cs-row"><h4>Challenge</h4><p><em>Challenge description to be added — replace this placeholder once project information is available.</em></p></div>
+                <div class="cs-row"><h4>Approach</h4><p><em>Approach description to be added — how MoDuLeTech tackled the problem, decisions made along the way.</em></p></div>
+                <div class="cs-row"><h4>Outcome</h4><p><em>Outcome to be added — measurable results and key learnings from the project.</em></p></div>
+              </div>
+              <div class="cs-tech"><span>Python</span><span>Django</span><span>PostgreSQL</span></div>
+              <a href="#" class="btn btn-ghost cs-cta">Read Case Study <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         PROCESS
+    ==================================================== -->
+    <section class="process" aria-labelledby="process-headline">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label section-label-lt">How We Work</span>
+          <div class="sh-row">
+            <h2 class="section-title" id="process-headline">Methodical<br>by design.</h2>
+            <p class="section-sub process-sub">Good technology outcomes come from clear process, not just good intentions. Here's how we approach every project.</p>
+          </div>
+        </div>
+        <div class="process-list">
+          <div class="proc-step reveal">
+            <span class="proc-num" aria-hidden="true">01</span>
+            <div class="proc-body">
+              <h3>Understand</h3>
+              <p>We start by listening. Understanding the real problem — not just the stated one — is the most important step. We ask the right questions before touching any tools.</p>
+            </div>
+          </div>
+          <div class="proc-step reveal">
+            <span class="proc-num" aria-hidden="true">02</span>
+            <div class="proc-body">
+              <h3>Plan</h3>
+              <p>We map out the solution clearly before building it. Scope, timeline, technology, constraints — nothing ambiguous. You know exactly what we're building and why.</p>
+            </div>
+          </div>
+          <div class="proc-step reveal">
+            <span class="proc-num" aria-hidden="true">03</span>
+            <div class="proc-body">
+              <h3>Build</h3>
+              <p>We build with care and communicate throughout. No silent disappearing acts. Regular updates, clear progress, and an open channel for feedback.</p>
+            </div>
+          </div>
+          <div class="proc-step reveal">
+            <span class="proc-num" aria-hidden="true">04</span>
+            <div class="proc-body">
+              <h3>Refine</h3>
+              <p>We review, test, and improve. The first version is rarely the final version. We iterate until the solution is right — not just done.</p>
+            </div>
+          </div>
+          <div class="proc-step reveal">
+            <span class="proc-num" aria-hidden="true">05</span>
+            <div class="proc-body">
+              <h3>Deliver</h3>
+              <p>Clean handoff. Clear documentation. We make sure you own and understand what we built. And we stay available after delivery for whatever comes next.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         TEAM
+    ==================================================== -->
+    <section class="team" id="team" aria-labelledby="team-headline">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">The Team</span>
+          <div class="sh-row">
+            <h2 class="section-title" id="team-headline">People behind<br>the work.</h2>
+            <p class="section-sub">A focused, close-knit team based in Gaborone. We work closely with every client because that's how good work actually happens.</p>
+          </div>
+        </div>
+        <div class="team-grid">
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="/images/mf.jpg" alt="Mphoyaone Frekkie — Founder &amp; Lead Developer" class="team-img" loading="lazy">
+            </div>
+            <div class="team-info">
+              <h3>Mphoyaone Frekkie</h3>
+              <span class="team-role">Founder &amp; Lead Developer</span>
+              <p>Leads software architecture, system engineering, and technology strategy across web, mobile, and custom systems.</p>
+            </div>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="/images/mdanco.jpeg" alt="Mdanco — Design &amp; Frontend" class="team-img" loading="lazy">
+            </div>
+            <div class="team-info">
+              <h3>Duncan Baasweditse</h3>
+              <span class="team-role">Design &amp; Frontend</span>
+              <p>Crafts intuitive user experiences, modern interface designs, and responsive frontend web solutions.</p>
+            </div>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="/images/lexy.jpeg" alt="Lexy — IT Specialist" class="team-img" loading="lazy">
+            </div>
+            <div class="team-info">
+              <h3>Ponalo Segolabeng</h3>
+              <span class="team-role">IT Specialist</span>
+              <p>Specialises in comprehensive IT support, hardware maintenance, software configuration, and technical troubleshooting.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         CONTACT
+    ==================================================== -->
+    <section class="contact" id="contact" aria-labelledby="contact-headline">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-left reveal">
+            <span class="section-label section-label-lt">Let's Talk</span>
+            <h2 class="contact-hl" id="contact-headline">Have an idea?<br>Let's build it.</h2>
+            <p class="contact-body">Whether you're a business looking to build a digital presence, a student who needs technical guidance, or an individual with a technology problem — we're here, we're in Botswana, and we're ready to help.</p>
+            <div class="contact-details">
+              <div class="cd-item">
+                <div class="cd-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
+                <div><span class="cd-label">Location</span><span class="cd-val">Gaborone, Botswana</span></div>
+              </div>
+              <div class="cd-item">
+                <div class="cd-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></div>
+                <div><span class="cd-label">Email</span><a href="mailto:[EMAIL_ADDRESS]" class="cd-val">frekkiemaatla04@gmail.com</a></div>
+              </div>
+              <div class="cd-item">
+                <div class="cd-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.21l3 .01a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></div>
+                <div><span class="cd-label">Phone</span><a href="tel:+26774511376" class="cd-val">+267 745 11376</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right reveal">
+            <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="f-name">Full Name</label>
+                  <input type="text" id="f-name" name="name" placeholder="Your name" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label for="f-email">Email Address</label>
+                  <input type="email" id="f-email" name="email" placeholder="your@email.com" required autocomplete="email">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="f-phone">Phone Number</label>
+                  <input type="tel" id="f-phone" name="phone" placeholder="+267 XXX XXXXX" autocomplete="tel">
+                </div>
+                <div class="form-group">
+                  <label for="f-service">Service of Interest</label>
+                  <select id="f-service" name="service">
+                    <option value="" disabled selected>Select a service</option>
+                    <option value="mobile">Mobile App Development</option>
+                    <option value="web">Website Development</option>
+                    <option value="custom">Custom Systems Development</option>
+                    <option value="academic">Academic Technology Support</option>
+                    <option value="design">Flyer &amp; Digital Design</option>
+                    <option value="office">Microsoft Office Training</option>
+                    <option value="hardware">Hardware Support</option>
+                    <option value="software">Software Support</option>
+                    <option value="other">Other / Not sure yet</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="f-message">Your Message</label>
+                <textarea id="f-message" name="message" placeholder="Tell us about your project, challenge, or question..." rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-accent btn-full">
+                Start a Conversation
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg>
+              </button>
+              <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================
+       FOOTER
+  ==================================================== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo" aria-label="MoDuLeTech home">MoDuLeTech</a>
+          <p>A technology company built for Botswana. Practical, capable, and approachable — for businesses, individuals and students.</p>
+          <div class="footer-socials" aria-label="Social media">
+            <a href="https://www.facebook.com/profile.php?id=61591821124282" aria-label="Facebook" class="soc-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+            <a href="#" aria-label="Instagram" class="soc-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            <a href="#" aria-label="LinkedIn" class="soc-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            <a href="#" aria-label="X / Twitter" class="soc-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+          </div>
+        </div>
+        <nav class="footer-col" aria-label="Company links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-col" aria-label="Services links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Mobile App Development</a></li>
+            <li><a href="#services">Website Development</a></li>
+            <li><a href="#services">Custom Systems</a></li>
+            <li><a href="#services">Academic Support</a></li>
+            <li><a href="#services">Digital Design</a></li>
+            <li><a href="#services">Office Training</a></li>
+            <li><a href="#services">Hardware Support</a></li>
+            <li><a href="#services">Software Support</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col footer-contact-col">
+          <h4>Get in Touch</h4>
+          <address>
+            <p>Gaborone, Botswana</p>
+            <a href="mailto:frekkiemaatla04@gmail.com">frekkiemaatla04@gmail.com</a>
+            <a href="tel:+267XXXXXXXX">+267 745 11376</a>
+          </address>
+          <a href="#contact" class="btn btn-accent" style="margin-top: 1.25rem; display: inline-flex;">Start a Project</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 MoDuLeTech. All rights reserved.</p>
+        <p>Developed by Mphoyaone Frekkie.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====================================================
+       PROJECT PREVIEW MODAL / LIGHTBOX
+  ==================================================== -->
+  <div class="project-modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project Preview">
+    <div class="project-modal-backdrop" id="project-modal-backdrop"></div>
+    <div class="project-modal-dialog">
+      <div class="project-modal-header">
+        <div class="modal-header-meta">
+          <span class="modal-badge">Featured Client Showcase</span>
+          <h3 class="modal-title">ARCH MAK STUDIOS</h3>
+          <p class="modal-subtitle">Architecture Designed for Tomorrow &middot; Responsive Website Design &amp; Development</p>
+        </div>
+        <button class="project-modal-close" id="project-modal-close" aria-label="Close project preview">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="project-modal-body">
+        <div class="modal-img-container">
+          <img
+            id="modal-project-img"
+            src="/images/archmak-studio.png"
+            alt="ARCH MAK STUDIOS — Full website interface screenshot"
+          >
+        </div>
+        <div class="modal-footer-bar">
+          <div class="modal-footer-tags">
+            <span>React</span>
+            <span>Modern Architecture</span>
+            <span>Responsive Web</span>
+            <span>UI/UX Design</span>
+          </div>
+          <a href="#contact" class="btn btn-accent modal-cta-btn" id="modal-start-proj">Start a Similar Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="18,15 12,9 6,15"></polyline></svg>
+  </button>
+
+  <script src="/js/script.js" defer></script>
+</body>
+</html>
