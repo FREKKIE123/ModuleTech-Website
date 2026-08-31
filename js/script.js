@@ -395,7 +395,7 @@
       // Real email submission via FormSubmit AJAX
       var formData = new FormData(form);
 
-      fetch('https://formsubmit.co/ajax/moduletech3@gmail.com', {
+      fetch('https://formsubmit.co/ajax/8ec5bc00a386de7cd783fe4ebb2fb2a2', {
         method: 'POST',
         headers: {
           'Accept': 'application/json'
