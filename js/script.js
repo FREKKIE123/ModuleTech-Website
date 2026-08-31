@@ -392,8 +392,23 @@
         submitBtn.innerHTML = '<span>Sending Message…</span>';
       }
 
-      // Simulated sending feedback
-      setTimeout(function () {
+      // Real email submission via FormSubmit AJAX
+      var formData = new FormData(form);
+
+      fetch('https://formsubmit.co/ajax/moduletech3@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json'
+        },
+        body: formData
+      })
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error('Network error or submission failed');
+        }
+        return response.json();
+      })
+      .then(function (data) {
         if (formMsg) {
           formMsg.className = 'form-msg success';
           formMsg.textContent = 'Thank you! Your message has been sent successfully. We will get back to you shortly.';
@@ -404,12 +419,20 @@
         form.querySelectorAll('.form-group').forEach(function (group) {
           group.classList.remove('is-valid', 'has-error');
         });
-
+      })
+      .catch(function (error) {
+        console.error('Contact form submission error:', error);
+        if (formMsg) {
+          formMsg.className = 'form-msg error';
+          formMsg.textContent = 'Oops! There was a problem sending your message. Please try again or email us directly at moduletech3@gmail.com.';
+        }
+      })
+      .finally(function () {
         if (submitBtn) {
           submitBtn.disabled = false;
           submitBtn.innerHTML = originalBtnHtml;
         }
-      }, 1200);
+      });
     });
   }
 
